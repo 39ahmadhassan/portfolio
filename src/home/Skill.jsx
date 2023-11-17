@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Skills(props) {
+function Skill(props) {
   return (
     <>
     <div className='col-4 skill'>
@@ -11,4 +11,4 @@ function Skills(props) {
   )
 }
 
-export default Skills
+export default Skill
