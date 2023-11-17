@@ -1,4 +1,3 @@
-import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import client from '../assets/image/client.png';
@@ -15,7 +14,7 @@ function Slide() {
         <>
             <div className="row slide">
                 <div className="col-md-6 slide-img">
-                  <img src={client}/>
+                  <img src={client} alt="not-available"/>
                   <h2>Ahmad Hassan </h2>
                   <p>Web design</p>
                 </div>

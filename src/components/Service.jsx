@@ -1,9 +1,6 @@
 import React from 'react'
 import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord';
 import IntegrationInstructionsIcon from '@mui/icons-material/IntegrationInstructions';
-import CodeIcon from '@mui/icons-material/Code';
-import ApiIcon from '@mui/icons-material/Api';
-import Btn from './Btn'
 function Ser(props) {
     return (
         <>

@@ -4,7 +4,6 @@ import Experience from './Experience'
 import company from '../assets/image/company.png';
 import Btn from './Btn';
 import esol from '../assets/image/esol.png';
-import school from '../assets/image/school.png';
 // import { NavLink } from "react-router-dom";
 const Skills = (props) =>{
   return(

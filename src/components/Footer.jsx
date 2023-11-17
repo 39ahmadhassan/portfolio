@@ -1,5 +1,4 @@
 import React from 'react'
-import Resume from './Resume';
 import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
@@ -55,29 +54,29 @@ function Footer() {
       <div className="container-fluid mt-5 position-relative">
         <div className="row">
           <div className="col-12 mb-4 text-center social">
-            <a href="https://github.com/49ahmadhassan" target='_blank'>
+            <a href="https://github.com/49ahmadhassan" rel="noreferrer" target='_blank'>
               <GitHubIcon/>
             </a>
-            <a href="https://wa.me/qr/7HIQVMGLAHUTK1" target='_blank'>
+            <a href="https://wa.me/qr/7HIQVMGLAHUTK1" rel="noreferrer" target='_blank'>
               <WhatsAppIcon/>
             </a>
-            <a href="https://www.facebook.com/profile.php?id=100085081321536&mibextid=ZbWKwL" target='_blank'>
+            <a href="https://www.facebook.com/profile.php?id=100085081321536&mibextid=ZbWKwL" rel="noreferrer" target='_blank'>
               <FacebookOutlinedIcon />
             </a>
-            <a href="https://www.linkedin.com/in/ahmad-hassan-231167252/" target='_blank'>
+            <a href="https://www.linkedin.com/in/ahmad-hassan-231167252/" rel="noreferrer" target='_blank'>
               <LinkedInIcon />
             </a>
-            <a href="https://www.instagram.com/invites/contact/?i=11ciqnrmd99cq&utm_content=pix4j00" target='_blank'>
+            <a href="https://www.instagram.com/invites/contact/?i=11ciqnrmd99cq&utm_content=pix4j00" rel="noreferrer" target='_blank'>
               <InstagramIcon />
             </a>
-            <a href="https://www.youtube.com/@ahmadfreetime/about" target='_blank'>
+            <a href="https://www.youtube.com/@ahmadfreetime/about" target='_blank' rel="noreferrer">
               <YouTubeIcon/>
             </a>
           </div>
         </div>
         <hr />
         <div className="container">
-          <a href="#top">
+          <a href="#top" >
             <div className='row justify-content-end'>
               <div className='col-1 arrow'>
                 <ArrowUpwardIcon />

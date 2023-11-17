@@ -1,15 +1,14 @@
 import React from 'react';
 import logo from "../assets/image/logo4.png";
-import MenuIcon from '@mui/icons-material/Menu';
 import {Link} from "react-router-dom";
-import { Navbar, Container, NavDropdown, Nav } from 'react-bootstrap';
+import { Navbar, Container, Nav } from 'react-bootstrap';
 function Bar() {
   return (
     <>
     <Navbar variant="dark" expand="lg" id='top'>
       <Container>
         <Link exact to='/'>
-        <img className="img-fluid" src={logo} />
+        <img className="img-fluid" src={logo} alt='not-available'/>
         </Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse className='menu' id="basic-navbar-nav">

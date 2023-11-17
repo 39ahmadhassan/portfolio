@@ -1,4 +1,3 @@
-import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import desktop_work from '../assets/image/desktop_work.jpg';
@@ -9,7 +8,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 // import required modules
 import { Pagination } from "swiper";
-function Work_detail(props) {
+function WorkDetail(props) {
   return (
     <>
     <a href={props.url} target="_blank">
@@ -58,11 +57,11 @@ export default function App() {
             modules={[Pagination]}
             className="mySwiper"
           >
-            <SwiperSlide><Work_detail title="burger shop" url="https://www.youtube.com/" mobile={work_mobile} desktop={desktop_work}/></SwiperSlide>
-            <SwiperSlide><Work_detail title="burger shop" url="https://www.youtube.com/" mobile={work_mobile} desktop={desktop_work}/></SwiperSlide>
-            <SwiperSlide><Work_detail title="burger shop" url="https://www.youtube.com/" mobile={work_mobile} desktop={desktop_work}/></SwiperSlide>
-            <SwiperSlide><Work_detail title="burger shop" url="https://www.youtube.com/" mobile={work_mobile} desktop={desktop_work}/></SwiperSlide>
-            <SwiperSlide><Work_detail title="burger shop" url="https://www.youtube.com/" mobile={work_mobile} desktop={desktop_work}/></SwiperSlide>
+            <SwiperSlide><WorkDetail title="burger shop" url="https://www.youtube.com/" mobile={work_mobile} desktop={desktop_work}/></SwiperSlide>
+            <SwiperSlide><WorkDetail title="burger shop" url="https://www.youtube.com/" mobile={work_mobile} desktop={desktop_work}/></SwiperSlide>
+            <SwiperSlide><WorkDetail title="burger shop" url="https://www.youtube.com/" mobile={work_mobile} desktop={desktop_work}/></SwiperSlide>
+            <SwiperSlide><WorkDetail title="burger shop" url="https://www.youtube.com/" mobile={work_mobile} desktop={desktop_work}/></SwiperSlide>
+            <SwiperSlide><WorkDetail title="burger shop" url="https://www.youtube.com/" mobile={work_mobile} desktop={desktop_work}/></SwiperSlide>
           </Swiper>
         </div>
         <div className='row mt-5 justify-content-center'>

@@ -34,7 +34,7 @@ function display_card(){
               This impressive paella is a perfect party dish and a fun meal to cook together with your guests. Add 1 cup
               of frozen peas along with the mussels, if you like.
             </Typography>
-            <a href="" target='_blank'>view site</a>
+            <a href="https://www.youtube.com/" target='_blank' rel='noopener noreferrer'>view site</a>
           </CardContent>
         </Card>
       </div>

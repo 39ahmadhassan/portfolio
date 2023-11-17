@@ -1,5 +1,4 @@
 import React from 'react'
-import company from '../assets/image/company.png';
 function Experience(props) {
   return (
     <>
@@ -15,7 +14,7 @@ function Experience(props) {
           <p>{props.text}</p>
         </div>
         <div className='col-2'>
-          <a href={props.siteLink} target='_blank'>Visit Website</a>
+          <a href={props.siteLink} rel="noreferrer" target='_blank'>Visit Website</a>
         </div>
       </div>
     </>
