@@ -71,6 +71,64 @@ a:hover{
     height: auto;
     object-fit: cover;
 }
+.service_wrap{
+    background-color: #2a2c39;
+    padding: 60px 0px;
+}
+.service_wrap h5{
+    text-transform: capitalize;
+    color: #858792;
+}
+.service_wrap h2{
+    font-size: 55px;
+    text-transform: capitalize;
+    margin: 50px 0px;
+}
+
+.swiper {
+    width: 100%;
+  }
+  .swiper-slide {
+    height: 400px;
+    margin-right: 20px;
+    background: #252734;
+    padding: 50px;
+}
+.swiper-slide h4{
+    margin: 30px 0px;
+    text-transform: capitalize;
+    font-size: 23px;
+}
+.swiper-slide li{
+      position: relative;
+    list-style: none;
+    text-transform: capitalize;
+  }
+  .swiper-slide li::before{
+    content: "\00BB";
+    position: absolute;
+    top: 0px;
+    left: -30px;
+  }
+  .swiper-slide:nth-child(2) {
+    background: #252734;
+  }
+  .swiper-slide:nth-child(3) {
+    background: #252734;
+  }
+  .swiper-slide:nth-child(4) {
+    background: #252734;
+  }
+  .swiper-slide:nth-child(5) {
+    background: #252734;
+  }
+  .swiper-slide:nth-child(6) {
+    background: #252734;
+  }
+  .swiper-slide:nth-child(7) {
+    background: #252734;
+  }
+  
 .contact button{
     border: 1px solid rgba(255,255,255,.1);
     background: transparent;
@@ -132,7 +190,15 @@ a:hover{
         font-size: 18px !important;
     }
   }
+  @media only screen and (max-width: 992px) {
+    .service_wrap h2{
+        font-size: 40px;
+    }
+  }
   @media only screen and (max-width: 786px) {
+    .service_wrap h2{
+        font-size: 30px;
+    }
     .contact span{
         font-size: 14px !important;
     }
@@ -143,6 +209,10 @@ a:hover{
     }
   }
   @media only screen and (max-width: 500px) {
+    .service_wrap h2{
+        font-size: 19px;
+        margin-top: 18px;
+    }
     .banner_wrap img{
         margin-top: 30px;
     }
