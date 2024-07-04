@@ -2,6 +2,7 @@ import './App.css';
 import Home from './pages/Home';
 import About from './pages/About';
 import Service from './pages/Service';
+import ServiceDetail from './pages/ServiceDetail';
 import Blog from './pages/Blog';
 import Project from './pages/Project';
 import Projectdetail from './pages/Projectdetail';
@@ -20,6 +21,7 @@ function App() {
     <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='service' element={ <Service/> }/>
+      <Route path='servicedetail' element={ <ServiceDetail/> }/>
       <Route path='blog' element={ <Blog/> }/>
       <Route path='about' element={ <About/> }/>
       <Route path='project' element={ <Project/> }/>
