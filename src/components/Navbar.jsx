@@ -46,13 +46,13 @@ function Navbar() {
           <a href="#skill" className="nav-item nav-link">Skills</a>
           <a href="#service" className="nav-item nav-link">Services</a>
         </div>
-        <a href="#home" className="navbar-brand bg-secondary py-3 px-4 mx-3 d-none d-lg-block">
+        <a href="#home" className="navbar-brand py-3 px-4 mx-3 d-none d-lg-block" style={{backgroundColor:'rgb(255, 196, 72)'}}>
           <h1 className="text-primary fw-bold m-0">ProMan</h1>
         </a>
         <div className="navbar-nav me-auto py-0">
           <a href="#project" className="nav-item nav-link">Projects</a>
-          <a href="/" className="nav-item nav-link">Team</a>
-          <a href="/" className="nav-item nav-link">Testimonial</a>
+          {/* <a href="/" className="nav-item nav-link">Team</a> */}
+          {/* <a href="/" className="nav-item nav-link">Testimonial</a> */}
           <a href="#contact" className="nav-item nav-link">Contact</a>
         </div>
       </div>

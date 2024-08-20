@@ -10,7 +10,7 @@ function Aboutme() {
           <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
             <div className="d-flex align-items-center mb-5">
               <div className="years flex-shrink-0 text-center me-4">
-                <h1 className="display-1 mb-0">15</h1>
+                <h1 className="display-1 mb-0">1.5</h1>
                 <h5 className="mb-0">Years</h5>
               </div>
               <h3 className="lh-base mb-0">of working experience as a web designer & developer</h3>
@@ -32,12 +32,12 @@ function Aboutme() {
             </div>
             <div className="d-flex align-items-center mb-3">
               <h5 className="border-end pe-3 me-3 mb-0">Happy Clients</h5>
-              <h2 className="text-primary fw-bold mb-0">1234</h2>
+              <h2 className="text-primary fw-bold mb-0">4</h2>
             </div>
             <p className="mb-4">Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam amet diam ipsum clita labore dolor duo clita.</p>
             <div className="d-flex align-items-center mb-3">
               <h5 className="border-end pe-3 me-3 mb-0">Projects Completed</h5>
-              <h2 className="text-primary fw-bold mb-0">1234</h2>
+              <h2 className="text-primary fw-bold mb-0">12</h2>
             </div>
             <p className="mb-0">Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam amet diam ipsum clita labore dolor duo clita.</p>
           </div>

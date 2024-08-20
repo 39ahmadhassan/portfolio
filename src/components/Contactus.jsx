@@ -15,13 +15,13 @@ function Contactus() {
         <div className="row g-5">
           <div className="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
             <p className="mb-2">My office:</p>
-            <h3 className="fw-bold">123 Street, New York, USA</h3>
+            <h3 className="fw-bold">Iftikhar Park Harbanspura Lahore</h3>
             <hr className="w-100" />
             <p className="mb-2">Call me:</p>
-            <h3 className="fw-bold">+012 345 6789</h3>
+            <h3 className="fw-bold">+92 303 0853614</h3>
             <hr className="w-100" />
             <p className="mb-2">Mail me:</p>
-            <h3 className="fw-bold">info@example.com</h3>
+            <h3 className="fw-bold">39ahmadhassan@gmail.com</h3>
             <hr className="w-100" />
             <p className="mb-2">Follow me:</p>
             <div className="d-flex pt-2">
